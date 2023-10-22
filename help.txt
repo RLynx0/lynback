@@ -1,8 +1,0 @@
-usage: lynback <command> [<args>]
-
-commands:
-    status              display information about the backup system
-    init <source>       create a backup system for <source>
-    new <name>          create new backup <name>
-    update [<name>]     update backup <name> or the currently loaded backup
-    load <name>         overwrite source with backup <name>
