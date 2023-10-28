@@ -28,16 +28,18 @@ fn git_version() -> Result<Output> {
         .or(Err(Error::NoGit))
 }
 
-fn init() {}
+fn init() {
+    todo!()
+}
 
 fn save(name: Option<String>, message: Option<String>) {
-    let git_output = Command::new("git").arg("add").arg(".").output();
+    todo!()
 }
 
 fn load(query: String) {
-    println!("Loading '{}'", query)
+    todo!()
 }
 
 fn log() {
-    println!("Logging the backup tree")
+    todo!()
 }
